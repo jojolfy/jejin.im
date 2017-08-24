@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-07-28 14:40:27
+ * @version $Id$
+ */
+*{ margin:0; padding:0; }
+li{ list-style:none; }
+a{ text-decoration:none; 
+	cursor: pointer;
+    color: #909090; }
+img{ vertical-align:top; border-style: none }
+button,input{ outline:none; font: inherit; border: none;}
+textarea{ resize:none; }
+img{ border-style: none; }
+
+.clearFix:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.fl{ float: left; }
+.fr{ float: right; }
+
+html {
+    font-size: 12px;
+    font-family: -apple-system,PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Helvetica Neue,sans-serif;
+    text-rendering: optimizeLegibility;
+    background-color: #f4f5f5;
+    color: #333;
+    word-break: break-word;
+}
